@@ -370,8 +370,6 @@ body {
 }
 
 /* ЗАЯВКА */
-.form {
-}
 
 .form-title {
   margin-bottom: 12px;
@@ -479,12 +477,6 @@ textarea::placeholder {
 
 .conditions input {
   margin-right: 7px;
-}
-
-.checkbox {
-  /* -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; */
 }
 
 .icon-check {
