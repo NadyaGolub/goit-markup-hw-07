@@ -1,0 +1,48 @@
+.header-list {
+    display: flex;
+}
+
+.site-nav-contacts:not(:last-child) {
+    margin-right: 50px;
+}
+
+.current-contacts {
+    color: $secondary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current-contacts:hover,
+.current-contacts:focus {
+    color: $accent-color;
+}
+
+.current-contacts:hover .contacts-icon,
+.current-contacts:focus .contacts-icon {
+    fill: $accent-color;
+    stroke: $accent-color;
+}
+
+.contacts-icon {
+    fill: $secondary-text-color;
+    stroke: $secondary-text-color;
+    margin-right: 10px;
+    transition-property: fill, stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-icon:hover,
+.contacts-icon:focus {
+    fill: $accent-color;
+    stroke: $accent-color;
+}
