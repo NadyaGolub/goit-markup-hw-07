@@ -25,7 +25,7 @@
 }
 
 .article-title {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -34,7 +34,6 @@
     text-transform: uppercase;
     position: absolute;
     display: flex;
-
     left: 107px;
     bottom: 27px;
 }
