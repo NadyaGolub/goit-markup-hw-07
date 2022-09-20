@@ -1,0 +1,45 @@
+.hero-list {
+    display: flex;
+    gap: 30px;
+}
+
+.text-priority {
+    width: 270px;
+}
+
+.features-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+}
+
+.brand-features-icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-title-text {
+    color: var(--secondary-text-color);
+
+    font-size: 14px;
+    line-height: 1.7;
+    margin-right: 30px;
+}
+
+.text-priority {
+    width: 270px;
+}
