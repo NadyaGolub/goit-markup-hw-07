@@ -1,4 +1,4 @@
-.clients {
+.clients_title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -7,13 +7,13 @@
     margin-bottom: 50px;
 }
 
-.brand-icons {
+.clients_brand-icons {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.partners-icon {
+.clients_partners-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,25 +26,25 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners-icon:hover,
-.partners-icon:focus {
+.clients_partners-icon:hover,
+.clients_partners-icon:focus {
     border-color: $accent-color;
 }
 
-.socials-partners-icon {
+.clients_socials-icon {
     fill: $icons-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-partners-icon:hover,
-.socials-partners-icon:focus {
+.clients_socials-icon:hover,
+.clients_socials-icon:focus {
     fill: $accent-color;
 }
 
-.partners-icon:hover .socials-partners-icon,
-.partners-icon:focus .socials-partners-icon {
+.clients_partners-icon:hover .clients_socials-icon,
+.clients_partners-icon:focus .clients_socials-icon {
     fill: $accent-color;
     border-color: $accent-color;
 }
