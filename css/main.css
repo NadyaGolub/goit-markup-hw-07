@@ -894,7 +894,7 @@ textarea::placeholder {
   border-color: #2196f3;
 }
 
-.header-container-button {
+.filter_list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -907,11 +907,11 @@ textarea::placeholder {
   margin-bottom: 56px;
 }
 
-.portfolio-button:not(:last-child) {
+.filter_item:not(:last-child) {
   margin-right: 8px;
 }
 
-.button {
+.filter_button {
   background-color: #f5f4fa;
   color: #212121;
   font-family: inherit;
@@ -938,15 +938,15 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.filter_button:hover,
+.filter_button:focus {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.header-container-project {
+.projects {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -958,7 +958,7 @@ textarea::placeholder {
   gap: 30px;
 }
 
-.item {
+.projects_item {
   width: 370px;
   overflow: hidden;
   -webkit-transition-property: -webkit-box-shadow;
@@ -971,13 +971,13 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item:hover,
-.item:focus {
+.projects_item:hover,
+.projects_item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.animation-link {
+.projects_link {
   display: block;
   -webkit-transition-property: border, -webkit-box-shadow;
   transition-property: border, -webkit-box-shadow;
@@ -989,25 +989,25 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.animation-link:hover,
-.animation-link:focus {
+.projects_link:hover,
+.projects_link:focus {
   border: 1px solid #eeeeee;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.animation-link:hover,
-.animation-link:focus .portfolio-overlay {
+.projects_link:hover,
+.projects_link:focus .portfolio-overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.portfolio-box {
+.projects_portfolio-box {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.projects_portfolio-overlay {
   content: "";
   display: inline-block;
   position: absolute;
@@ -1024,12 +1024,12 @@ textarea::placeholder {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item:hover .portfolio-overlay {
+.projects_item:hover .projects_portfolio-overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.portfolio-text {
+.projects_portfolio-text {
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
@@ -1048,16 +1048,16 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-text:hover {
+.projects_portfolio-text:hover {
   opacity: 1;
 }
 
-.item:hover .portfolio-text {
+.projects_item:hover .portfolio-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.item-project {
+.projects_description {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -1067,7 +1067,7 @@ textarea::placeholder {
   border-left: 1px solid #eeeeee;
 }
 
-.section-caption {
+.projects_title {
   color: #212121;
   font-weight: 700;
   font-size: 18px;

@@ -24,18 +24,24 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+   
+    }
+
 
 .clients_partners-icon:hover,
 .clients_partners-icon:focus {
-    border-color: $accent-color;
+    border-color: #2196f3;
 }
+
+
+
 
 .clients_socials-icon {
     fill: $icons-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .clients_socials-icon:hover,
