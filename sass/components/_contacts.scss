@@ -19,12 +19,18 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        }
+   
 }
 
-.header_contacts:hover,
-.header_contacts:focus {
-    color: $accent-color;
-}
+// .header_contacts:hover,
+// .header_contacts:focus {
+//     color: $accent-color;
+// }
 
 .header_contacts:hover .header_contacts-icon,
 .header_contacts:focus .header_contacts-icon {
@@ -39,13 +45,19 @@
     transition-property: fill, stroke;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            fill: $accent-color;
+            stroke: $accent-color;
+        }
 }
 
-.header_contacts-icon:hover,
-.header_contacts-icon:focus {
-    fill: $accent-color;
-    stroke: $accent-color;
-}
+// .header_contacts-icon:hover,
+// .header_contacts-icon:focus {
+//     fill: $accent-color;
+//     stroke: $accent-color;
+// }
 
 .footer_contacts:not(:last-child) {
     margin-bottom: 9px;
@@ -60,9 +72,14 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: $accent-color;
+        }
 }
 
-.footer_items-contacts:hover,
-.footer_items-contacts:focus {
-    color: $accent-color;
-}
+// .footer_items-contacts:hover,
+// .footer_items-contacts:focus {
+//     color: $accent-color;
+// }
